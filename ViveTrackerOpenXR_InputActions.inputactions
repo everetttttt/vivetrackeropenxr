@@ -1,0 +1,2982 @@
+{
+    "name": "ViveTrackerOpenXR_InputActions",
+    "maps": [
+        {
+            "name": "Vive Tracker LeftFoot",
+            "id": "78c0b34f-851b-46ce-adc1-08f74131b3f2",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "673ef02b-5089-43dd-b77e-ed4663d3ed6d",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "dfdcfafc-24f5-45c1-ac60-cfc5ae5f9522",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "b863561f-d6a6-4b38-97f4-32dcc3abcc49",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "285321d0-3aa8-420d-8415-1cf5052a9ed0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "27fa74f6-f7f7-43b9-9ff4-23f4c304d1a0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "5e9356c1-1b15-4bdd-918e-3f34309645b3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "e58955ed-a61c-418b-aef5-8031f17afe09",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "32adb049-2f31-4723-bb7a-4ab2732b6dfd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "b1df6f2f-39b7-4d38-a036-8a0246d6c696",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "b0bcaae6-82eb-424d-b4e9-647494d7c43e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "a602fe0b-ab43-40bd-8904-05f0cb21700b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "64eadc06-6d81-40cf-b48e-e33fab7b885b",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "96753fc7-df5d-4e2f-8a09-a33547f80e86",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "083a1668-fcee-4a67-ba87-49d1879be860",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "570ac739-337f-4a03-9b6e-ff246c963a10",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "598bd3a8-31fe-4c01-a0c6-e276ddaec95a",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0d1c32f3-8d59-4eca-8402-ce884fcfb203",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "440df076-4021-43c0-8697-7f17a815ccad",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8aaaf7c4-013f-4d2a-99bd-f13554113db8",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e521fa0-1b16-4db4-a442-15ca6f29fb31",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "81b235e1-6287-4f0d-85dc-9c2b6f6f7360",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6942f0c0-6b3d-4a74-a0c2-c2bd034826c5",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e4985866-f2b7-42cf-a197-6dc1ca30c64c",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9039c420-8e7b-41cb-829e-89e8d1b22229",
+                    "path": "<ViveTrackerOpenXR>{Left Foot}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker RightFoot",
+            "id": "7de184cc-2660-4d5b-a483-ab02bb7d0d0f",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "c7bd746b-1ba8-4b8c-b67d-7534e12a1efb",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "1e45082f-52a0-4afc-acbe-4436eb3b1278",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "44302ae3-73e9-48b9-adc9-65a7e4e0f3fa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "85aece4f-6e08-43b8-aea9-ec494e8d2285",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "cec80fb1-0318-4530-867b-688e463ebe32",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "55c83248-2b9c-4043-81e5-6bebd8117a2d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "bbf17d21-39d0-474e-aa29-c9d413bfd925",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "b22a7772-3abc-4f5f-bb58-b7c768a45342",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "0617c980-4909-4731-bdc5-75f161a14257",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "4eec805a-aec8-4c31-8bd2-671497463b75",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "7546aeda-7a2d-4660-8ce5-f5872bdccf4d",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "aaba006b-4468-47e1-b317-e766dd124ff7",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b88f850f-5806-40cf-a95f-70cecb1c75a4",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ffa1999-98b7-419d-89cc-1af952a6e00c",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2295e95c-d1fc-47d6-9c2a-c5203b2116b7",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5a53cd42-7155-495e-93ef-fee03434affd",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4aa0e409-6f00-4ea0-9ccd-5603c9ce6366",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a05ee62-e591-442c-916a-03441dc71c31",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6556d7bc-ffc2-449d-849e-7a61d9b05eb8",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cad11dc6-73a2-489c-9583-070be62a3c36",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c1775d2-c8e8-44d7-b042-448778960318",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "21260a80-2b26-48ca-83c0-3337b7dee722",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b4f3e603-cc00-4ab3-87ee-ff711390f089",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "869d828a-f9bd-44ad-a3b4-f003c9fe6690",
+                    "path": "<ViveTrackerOpenXR>{Right Foot}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker LeftShoulder",
+            "id": "1807cf75-8511-4337-b732-e6fca177b249",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "0ce1410d-4558-4269-b850-8e1e1588a2c9",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "af0d4bc1-aa0e-497b-812d-c38eaf591831",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "d2ad6ff2-6754-4ab5-a2c5-4e5524419ac2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "e35507a0-c840-44df-a07c-4059d47de58d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "166e6e5f-411d-483a-a809-f5cac0afb7fc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "c1036a81-858f-46f2-9230-727def039c2e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "b68ccc32-155e-479c-bcf3-e0d1b3536a05",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "ce4f0f8b-7052-4dca-a7b0-013e4d100725",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "5fb3fa11-4a98-4ae2-aefb-fa0e1d888877",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "7f152ee6-1775-4431-a64f-f5cdcfdc8f9c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "e8deeca1-b372-4e2c-9c6e-b64b501f5e94",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "0497246c-0289-40dd-bfd6-e0632c05ea4e",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a3a9a808-c4d9-4b33-8496-b28a10f8630a",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d52385f-8c83-4f5e-b9e2-ff031651e9d8",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "26de5e4a-07ac-44b5-9b24-d412c544a089",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eb79eade-9da2-41ae-ba5b-7b35ec757db6",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ffa945dd-7069-4faa-9999-2cf3757f0962",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d8ea244b-6f7c-4ca2-896b-edb97b42a717",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c11ab097-3fb4-430e-bdb1-d139450c4692",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "776551b1-39ef-41f5-8acd-015423e575cf",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a42dc522-2b1e-46a5-ac91-a4e847d9af6a",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5395bad8-76cd-4ad5-b8c2-f68f2768bc7d",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6740825c-0a8f-4a55-b5e9-7aeee3192bad",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0a9b4dc-049c-46d3-95cc-78d9e8a51c26",
+                    "path": "<ViveTrackerOpenXR>{Left Shoulder}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker RightShoulder",
+            "id": "301c7ae3-e10d-4c6a-b0a8-40a4340304a3",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "b3dbf233-b3d3-4fe1-9e69-e7debf833049",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "1fbc75e2-a7bb-4963-84a0-2562e6e16056",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "0b4b49ec-c404-4ccd-8ab9-fbfe51c4697d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "596bde4f-ffe6-440a-9a81-7269a4b27fc4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "0a0533d5-de6c-4483-9ec9-c9cb514c5ac1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "a8d4b9fa-3e60-44f3-bebd-7438ffd2f303",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "b6c38156-dce6-4b79-b99e-613012572f83",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "2d583d29-47d4-4b6c-b1a5-b51f5551510e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "5e0a44c7-6159-4951-a9fb-c9b87cb78e8a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "60220ecd-8093-446f-b08f-aa363f4290c1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "85f7cf55-9370-4a08-8421-2fe5ed5e0aa5",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "e447ae96-8895-4358-9d95-ee75608422d5",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "49f13e5c-67e7-4ef3-b4f7-dcdffce8c6a4",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1c04906b-e86c-445b-a1c2-8a2ca4d0cb7a",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2e6a210d-7bc2-4bd8-9563-774d747c33aa",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0ce2546-95b1-4510-abb3-7e0ab8281a5a",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d304da4-17e1-482e-98bb-52a2af3bbfc7",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58eeb3ff-ef12-40d5-a2e1-a2f448ca2d35",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c32e546-6cdd-4cf2-b3d7-f21d53964bcb",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "732be856-a622-45b4-8e0e-fc789042bdd7",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5cb69ebe-e783-4d1f-aeea-13535547c1a8",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e46162b7-0bdd-41e3-88cc-0f2556c25675",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25bfab27-0767-4061-9008-2e9230bd8748",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "391f4ad3-6771-4c9e-96b4-35e97e05b830",
+                    "path": "<ViveTrackerOpenXR>{Right Shoulder}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker LeftElbow",
+            "id": "e4c793bf-a333-4b9b-bed8-b446d651b983",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "29a8601b-a46b-4bf2-9876-99970c6fad41",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "d426e7f1-732e-45ba-ad19-e2f4ecef8a89",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "6a97d624-662d-4e3f-add5-94f8b8753c98",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "b3221b16-30a3-4ac5-a1d6-566ce381fec5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "df117adb-bfb3-40be-8709-9c428e4febc9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "d45c6f82-a8c0-4ab6-96b7-2b20d3c6ca8a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "3ecd970c-657d-4de4-8688-5120871e9ca9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "b81a369b-a3aa-4c05-81d9-fd1e71dbfb51",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "9ce7553c-528e-4bb5-90aa-48b482b7ab57",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "03b0a17d-6acf-49b6-9814-0078652e3a88",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "612b3574-1b70-436a-bc28-5d5b100d536e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "b50891c6-3e9b-4fc2-96e3-052fe8e86906",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "038923de-108e-4abf-99f9-8bb4333a16ed",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d4a04553-d1bf-47fb-a646-02dcc3636421",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "db19ee0b-f55d-47db-9664-3789f3cdc4b5",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb74409c-39ba-4004-b128-85c689baeb7c",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9382c279-cc2a-4a7e-979c-5606a8028945",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f27b5f2-4f7d-41f8-bdee-2ae267c738bf",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4b3c90eb-7ca3-4139-9221-12fbefaa62d6",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6506a1d7-c0d2-4db2-b8bd-c8d79f1d0b6a",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1809f9b3-f032-4b25-a47c-319e39ea429d",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "091c4008-bec8-4836-b509-60e2e813935b",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "072fba44-f34b-4cbf-a812-ea74d43ba29c",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "558e1ae5-5db6-4e34-a8f2-0f9e40b9bd4c",
+                    "path": "<ViveTrackerOpenXR>{Left Elbow}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker RightElbow",
+            "id": "b53d04d5-2017-4571-a135-d11f9b51ec27",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "87151ff2-dad7-42bb-85e7-f3a84f71a58c",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "b6e0e947-f089-4f2c-978b-63b2ef881efd",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "52b7970b-6aa6-41fb-bef2-85d74785ff6f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "57f19a10-6a79-4bd3-b7f0-d752198c11af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "386ef15d-af6c-4275-8e92-af8517c1436d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "ef1071a3-5ac8-4236-842d-ce8c80c41825",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "bba7037a-e903-4841-8fd4-64552a2ff999",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "a43ffa32-3d05-47bc-8b7a-25460058c53e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "e122235c-5593-4241-979f-a5251a9051f2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "f6c0826d-13e7-4fd9-bd9f-0d31b4e9e186",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "3ea88bba-af4f-493d-831d-9925a501cbfd",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "e93b46cd-f097-474b-87c7-b8ae78c4d210",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aa296102-3954-4db1-85dc-01073f4346b5",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "254308f2-faf6-4099-a248-2fc4a287b71c",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "34cc67a4-b4d4-43fc-8c4c-f27d5d637448",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0d03a7cb-ca86-4c01-9489-65f066df1983",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4b1312f-a97d-4e0c-801e-20fd2b508efa",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "630fec23-a9ba-441c-ab59-40f48c2269a3",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "65fa5c3c-710e-4909-b7c5-52ec81f0047d",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59152740-8a4f-4604-8864-2a6aba99ba85",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5abfa3ea-1f0a-4499-bba7-8202baba9aa3",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93d8a3e1-a55c-4f6a-bebb-4cc1a0e2f88e",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "49dda1e4-1b06-4219-9254-32a1cc0c1aaa",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c9b11e7-178c-45ae-8853-957ccd77990e",
+                    "path": "<ViveTrackerOpenXR>{Right Elbow}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker LeftKnee",
+            "id": "06eb23fe-51b3-477a-a4dc-dcad5f4c5d4a",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "907bb5c1-96a3-476f-8b4c-73259d9af9d0",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "dd61797e-1382-4519-8400-c3f57b8ddc01",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "9868e0df-6dd5-420b-9dcc-7ee98580a643",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "7e7fa838-2aa5-4805-8df3-2ce122b0109b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "f05a1858-5cb6-40a8-88ff-0349123249cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "94dd3c5b-8ed1-4b82-9033-a9903c8015fd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "21fa0a36-e3de-4d56-8cd8-bacd7499552e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "cb533984-5fa3-451e-9827-c13bf978b1e7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "63ff698e-8a39-4506-ae94-64748b8ce417",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "5d97217c-d444-46fe-9963-53e5e4558151",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "b4f96dee-403f-4d26-bb02-9ce54016878b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "ade2c64d-72a3-4a45-9968-1c1ba8c14ea7",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "28e3f10a-6367-4d4f-98dd-72490c7a2e35",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10b2be7f-1366-4076-85b0-a75c8815d1a6",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32d537ca-4306-4f4a-977a-f5050f1d7094",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e29af99f-7a4b-4f12-b179-6537864741ae",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12924297-abe3-46ed-9f05-ee5d3f906bf4",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "14999464-58c0-4200-9d9f-88f775fba751",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7254bb0c-d8a5-410a-8723-b0e4d21bc8e3",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "65eac405-1cfb-4284-b539-5cb219fa47c8",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dcc241b8-e402-487c-a6c3-55786596f63b",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "50673fad-7646-43bc-8ed4-4631ff2a2aca",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6bc44fd1-acc3-48ec-9079-23513a795499",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d7c9c8c-ea93-4665-9bf1-24bb774233ae",
+                    "path": "<ViveTrackerOpenXR>{Left Knee}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker RightKnee",
+            "id": "4dff9041-3214-409a-94b4-77749ac6cad1",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "3f2dcc4b-3191-4f68-a8fa-8c1dc3957df6",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "a28996e2-2422-47be-952f-f76162dc08ec",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "ad0a9155-6dae-45ee-bd4b-e006f7431abb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "246d91e4-ebb1-4e12-b1fe-0dc0fa18cabd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "c2c84e11-7383-4842-8c4e-d3689949716a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "6162c734-2cb0-4784-b391-f31199e614e6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "02248687-72e1-4e5d-8717-09a418e9fd8c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "ddb0e434-a8a6-4b99-8c64-82dc28ae6e9c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "4f799be8-f74f-42f5-b9a4-65cbbb96405a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "c293474f-e14f-45bd-9d02-75e3df4d69be",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "5b40b323-8471-483f-9e7e-6bef4d025279",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "c26ef277-0275-4f48-b6c8-215569b47877",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "db338c06-d959-413c-a67c-7e6d8d539297",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b35c59ed-567a-4866-8b11-4edacaa74dad",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91177408-b687-4da5-b706-c8aaff459087",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c80f3cd9-c678-4e9a-84dc-119ff69a1615",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e39e16f0-cf57-46d5-8c19-f47dd347fa60",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "06c15637-7032-47b5-8afb-4394f511c04e",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "76a95935-eaa3-4264-885b-664e376c05c0",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ea76d0e7-099a-49cf-bf73-4c5c7e78459a",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e1f8cd82-52d8-407f-92b2-49124ca7c5bd",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a0cdd97-9c9b-49cd-8ed6-e327337270e5",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8969ff9a-c9e7-48c9-a3e5-8e4e6d0a61ee",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "16499851-c27c-462f-9fe3-e56509045dd5",
+                    "path": "<ViveTrackerOpenXR>{Right Knee}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker Waist",
+            "id": "1ba3992b-b8ff-40b6-b88c-34ea3067c213",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "baaaadf0-bf38-4de2-b869-4295eb8008b6",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "5b3dc850-022d-4e59-9be1-f6db5d988a24",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "cf9ea268-1d2f-4bb9-8a7d-be5fee329a23",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "90942069-58b4-4e56-af34-e835777328ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "623c8d9e-c20c-4099-a44f-271cd4b69b3d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "b9152ec9-3ef0-4453-bb2e-37e8c2b08b80",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "c50086df-885a-4780-a564-1a48ea68c8fa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "e3fb5076-abe3-4cff-b5ca-1694ad63363c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "60a9a687-2af4-4851-a4ed-3713c87c5b36",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "aa9b416d-a227-497a-8ddf-cca887bff265",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "78a06255-128d-4754-a767-237cdc3c5676",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "d5959f3d-28ec-4979-85b5-7a2a901dfd0e",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f70d7745-977f-434b-b787-a64dbc516700",
+                    "path": "<ViveTrackerOpenXR>{Waist}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d3203195-f150-4972-85e4-01f8c6909b7a",
+                    "path": "<ViveTrackerOpenXR>{Waist}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c957c2e8-8943-4fb4-943e-20c154f106f3",
+                    "path": "<ViveTrackerOpenXR>{Waist}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4a508dac-7ae5-47de-951e-01f3c21698c1",
+                    "path": "<ViveTrackerOpenXR>{Waist}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b6214da-9d56-440f-aeda-ff7f058d263b",
+                    "path": "<ViveTrackerOpenXR>{Waist}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3019870b-620b-46ad-a009-e8ec5f3ef805",
+                    "path": "<ViveTrackerOpenXR>{Waist}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "297e5347-870d-4ab8-8fec-6ed7cdd9782e",
+                    "path": "<ViveTrackerOpenXR>{Waist}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12a09ad9-33d4-41e7-a1d5-8a160003ec8e",
+                    "path": "<ViveTrackerOpenXR>{Waist}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a2891d2-eb28-4742-b0d1-bb11adb18892",
+                    "path": "<ViveTrackerOpenXR>{Waist}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c40a84c4-0e21-4301-b9a8-031fd7f20fe6",
+                    "path": "<ViveTrackerOpenXR>{Waist}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b8639b2-6834-46cd-8983-5245cbc330a2",
+                    "path": "<ViveTrackerOpenXR>{Waist}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "597411fc-a9ce-49c5-84d6-26dd3f005bc4",
+                    "path": "<ViveTrackerOpenXR>{Waist}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker Chest",
+            "id": "859dc603-e424-4fa5-9340-74b62dcc7335",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "a3ac7095-e69d-4265-bf6f-e07c4a94d403",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "7962d571-7d82-40d3-86f4-52d74fd4e8fe",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "f62f2f10-e708-4b60-adc8-643ca4c0f6fe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "445f4028-a8dd-4433-8e67-277d7246d2de",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "76dceb32-f77a-4350-b3ab-a2ed0dade1bd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "9c4d6595-a269-424c-b2c1-f7bc91e4bbb3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "3a656289-417d-4327-a70e-b7933e937a28",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "500990e4-2caf-4dcd-8670-4c748faeb4d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "ff20f6df-ce09-466f-b8fc-343e14d531b3",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "37218491-2281-472f-9aaf-715672993a0a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "cf558ede-3477-4428-8adc-bfda87b60996",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "604d2550-cdcb-4947-b9d6-233b9defebbc",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cb372fd9-4441-43fd-8d21-b91a3b225983",
+                    "path": "<ViveTrackerOpenXR>{Chest}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "222dcc89-3572-42de-907c-aa12d5885a15",
+                    "path": "<ViveTrackerOpenXR>{Chest}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "00b0b090-b92a-45db-b988-40dda85289ff",
+                    "path": "<ViveTrackerOpenXR>{Chest}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e1472b0b-a6b1-47b3-a78f-26faafe8794b",
+                    "path": "<ViveTrackerOpenXR>{Chest}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3774e283-643c-417c-97f4-05e7b8a62c31",
+                    "path": "<ViveTrackerOpenXR>{Chest}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "76e25911-39fb-4516-9ac3-3123f8dc049a",
+                    "path": "<ViveTrackerOpenXR>{Chest}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "09439d7e-c3c4-44aa-94b6-0bf874a036be",
+                    "path": "<ViveTrackerOpenXR>{Chest}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c7c52f1-b621-4572-80cf-8a21ba9dab6a",
+                    "path": "<ViveTrackerOpenXR>{Chest}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "569d1cf7-d3de-48c2-9173-84e7f026bcb8",
+                    "path": "<ViveTrackerOpenXR>{Chest}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "83bb45b2-31b5-4ee9-a4ba-26b01656b6fb",
+                    "path": "<ViveTrackerOpenXR>{Chest}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e3e1d879-cfb4-45a8-841b-2cab0af16003",
+                    "path": "<ViveTrackerOpenXR>{Chest}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9efabd77-adca-4bab-82d0-50582377c9ce",
+                    "path": "<ViveTrackerOpenXR>{Chest}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker Camera",
+            "id": "52e99bb9-18a6-4b78-8d4a-0c6d3561cfa0",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "da1932d9-3c1d-46cc-a617-55ed541b468b",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "fcd71eba-4e38-4829-a3cf-83361d0af663",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "d3f69479-993a-4355-9687-e05584f5518b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "c7f2a049-cd96-4e47-8f08-10b643508e79",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "5b6e6be1-77fe-4f52-96cd-f9d91cd3a68b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "ea41a210-641a-425d-b919-23d1addd72a1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "0819a3d5-d331-4eb2-9676-30640a75a88e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "11bdf0f7-7b93-46c0-8c75-9cfa28578f0e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "d4259ba2-7866-448e-840d-b6dec0caaf1c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "505d2913-8e1f-47f6-ba3d-38ba71b7d009",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "897d7d5d-a82c-4ad2-aab0-e071dbffe1f0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "c602c4ab-6ff8-423b-a34e-bb654821f369",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "857d7fbf-c943-4fd4-a686-ef861184448f",
+                    "path": "<ViveTrackerOpenXR>{Camera}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "41959562-a29f-4a30-aea5-064ff76692f5",
+                    "path": "<ViveTrackerOpenXR>{Camera}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0700809f-75d8-4aad-a740-b82b6cfe9b4b",
+                    "path": "<ViveTrackerOpenXR>{Camera}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8df92669-8e7a-459c-96ba-77e9ec34830e",
+                    "path": "<ViveTrackerOpenXR>{Camera}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe038b73-dd28-41cf-afcd-77298a213245",
+                    "path": "<ViveTrackerOpenXR>{Camera}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59e72122-75ba-40f9-9e8f-5207935ad493",
+                    "path": "<ViveTrackerOpenXR>{Camera}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "71383c7b-26f1-4cb3-a700-381836d79857",
+                    "path": "<ViveTrackerOpenXR>{Camera}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d8a41207-b08e-46de-8fc0-b14b46f0ecdd",
+                    "path": "<ViveTrackerOpenXR>{Camera}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35373251-acba-4f70-9b86-e8e9ff8172c7",
+                    "path": "<ViveTrackerOpenXR>{Camera}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f101c354-5590-4b42-99ee-90a4c7e45cae",
+                    "path": "<ViveTrackerOpenXR>{Camera}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eece0df6-bbd7-415c-8a95-d907be9cddd2",
+                    "path": "<ViveTrackerOpenXR>{Camera}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5914f7a7-10f4-4208-99e9-5b474c714e21",
+                    "path": "<ViveTrackerOpenXR>{Camera}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vive Tracker Keyboard",
+            "id": "15f1fcbd-2247-4bc2-a6ab-a04471264d88",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "2a6169a9-786b-4c88-88e9-7f89c192e6fc",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "d2ab6e9d-4131-4395-bdca-71f215ab391d",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "System",
+                    "type": "Button",
+                    "id": "71833546-0c92-4b35-9af0-af3d61cb262a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "0013f072-6558-473f-a2c0-064ab87a6445",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "e6fabee1-2cbb-40a9-a8b6-1b3c73001cfd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Grip",
+                    "type": "Button",
+                    "id": "5630d804-c997-4034-8657-a92a62b1bfe2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad",
+                    "type": "Button",
+                    "id": "cb9f7ebf-dfb6-4782-8546-74a406658472",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pad Touch",
+                    "type": "Button",
+                    "id": "7cadcdcb-c1b6-4823-907f-2f0f61bf4fdd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Trigger Value",
+                    "type": "Value",
+                    "id": "e12be7ed-19ad-4f14-95bc-dcac19a3e356",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad X Value",
+                    "type": "Value",
+                    "id": "abc8e053-97ce-4d0f-a6e1-09d41c32c446",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pad Y Value",
+                    "type": "Value",
+                    "id": "65d8150e-432b-4256-b9dd-807282f878d2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Haptics",
+                    "type": "Value",
+                    "id": "6ba80d43-ca87-4149-a906-df2986a92ae3",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e11570d6-d878-4dda-8b75-6655a3b85d70",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "554075a7-9815-41c7-8ca2-0b0641ab1475",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "834adbfa-a352-4e8e-9b9c-05607d66bd95",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/system",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "System",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e31d3ba3-aeb4-462f-8c52-b695a5861340",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "712e266e-78ea-42f0-9835-5b59601488bf",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f265bbc4-5bda-47e2-8d0c-26c2d18927cf",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c694fb2a-37b7-42e4-9abc-4a2712e0e16c",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/pad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24aa2727-6dd1-4df7-994d-3f790093d101",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/padTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dcd095ea-d22c-4271-9741-80188216bb08",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/triggerValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b4013511-cf33-4738-b3d1-e10c49565508",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/padXValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad X Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8af85442-8a23-4e5d-a90a-5ea502c5b413",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/padYValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pad Y Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19d95733-cab6-48e2-89e5-29d063230667",
+                    "path": "<ViveTrackerOpenXR>{Keyboard}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptics",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
