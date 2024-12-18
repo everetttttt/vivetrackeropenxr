@@ -1,6 +1,6 @@
 # vivetrackeropenxr
 
-According to [this post on the Steam forums](https://steamcommunity.com/app/250820/discussions/8/560232227703656040/) which references [this github project](https://github.com/danwillm/openxr-vive-tracker-ext/tree/main), pogo pins and usb input for the vive trackers in SteamVR has been enabled as of a couple months ago and I should be able to access them through OpenXR. This was corroborated by another user. 
+According to [this post on the Steam forums](https://steamcommunity.com/app/250820/discussions/8/560232227703656040/) which references [this github project](https://github.com/danwillm/openxr-vive-tracker-ext/tree/main), pogo pins and usb input for the vive trackers in SteamVR has been enabled as of a couple months ago and I should be able to access them through OpenXR. This was corroborated by another user and it also works on my own machine.
 ----
 I wanted to get this implemented in Unity, the scripts above are my results. 
 1. To recreate, make a new Unity project, open the package manager and import the OpenXR plugin. Next, copy my assets and put them in your project.
