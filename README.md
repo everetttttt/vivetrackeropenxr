@@ -10,3 +10,8 @@ I wanted to get this implemented in Unity, the scripts above are my results.
 3. Create an empty game object in your scene and add the ViveTrackerManager script. Drag the input actions asset over and the mesh and material under ViveTracker3.obj, then click generate vive trackers. This should generate 13 vive trackers as a child (later todo is add the updated lsit of roles including wrists and ankles).
 
 4. Upon clicking play, the active trackers should accept in position and rotation data, but not pogo pin/usb input.
+
+
+Notes:\
+The interaction profile script was edited from [this script from Unity staff](https://discussions.unity.com/t/openxr-and-openvr-together/841675/21) and I tried to match it to [the builtin HTC Controller profile](https://github.com/needle-mirror/com.unity.xr.openxr/blob/72c94edf593e5d4ae100d0d6b8e05b7245eabf18/Runtime/Features/Interactions/HTCViveControllerProfile.cs#L34)\
+The 3d model is taken from [HTC's Vive Input Utility Unity package](https://github.com/ViveSoftware/ViveInputUtility-Unity/blob/28700d98c99bec35ad192057765a6bfadaabc78d/Assets/HTC.UnityPlugin/ViveInputUtility/Resources/Models/ObjModelViveTracker3.obj)
